@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мобільний застосунок</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Мобільний застосунок</h1>
+</header>
+
+<nav>
+    <a href="#about">Про застосунок</a>
+    <a href="#download">Як завантажити</a>
+    <a href="#pricing">Ціни</a>
+    <a href="#about-us">Про нас</a>
+    <a href="#contact">Контакти</a>
+</nav>
+
+<section id="about">
+    <h2>Про застосунок</h2>
+    <p>Наш застосунок допомагає вам легко керувати своїми завданнями та збільшувати продуктивність. Він призначений для людей, які цінують свій час і прагнуть досягати більше.</p>
+    <p>Основні функції включають керування завданнями, планування та нагадування.</p>
+</section>
+
+<section id="download">
+    <h2>Як завантажити</h2>
+    <p>Завантажте наш застосунок прямо зараз:</p>
+    <ul>
+        <li><a href="#">Завантажити з App Store</a></li>
+        <li><a href="#">Завантажити з Google Play</a></li>
+    </ul>
+</section>
+
+<section id="pricing">
+    <h2>Ціни</h2>
+    <p>Ми пропонуємо різні тарифні плани:</p>
+    <ul>
+        <li>Безкоштовний: базові функції</li>
+        <li>Преміум: розширені функції за $9.99 на місяць</li>
+        <li>Професійний: всі функції за $19.99 на місяць</li>
+    </ul>
+</section>
+
+<section id="about-us">
+    <h2>Про нас</h2>
+    <p>Наша команда складається з професіоналів, які прагнуть створювати інноваційні рішення для мобільних пристроїв. Ми цінуємо якість і клієнтоорієнтованість.</p>
+</section>
+
+<section id="contact">
+    <h2>Контакти</h2>
+    <p>Зв'яжіться з нами:</p>
+    <ul>
+        <li>Email: support@mobileapp.com</li>
+        <li>Телефон: +380 123 456 789</li>
+    </ul>
+</section>
+
+<footer>
+    <p>&copy; 2024 Мобільний застосунок. Всі права захищені.</p>
+</footer>
+
+</body>
+</html>
