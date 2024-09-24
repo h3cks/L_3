@@ -5,11 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Мій Мобільний Застосунок</title>
     <meta name="description" content="Створіть обліковий запис або увійдіть у свій обліковий запис для використання нашого мобільного застосунку. Простий, веселий та креативний спосіб керувати вашими завданнями.">
-
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-    <link rel="manifest" href="images/site.webmanifest">
     <style>
         body {
             font-family: Arial, sans-serif;
