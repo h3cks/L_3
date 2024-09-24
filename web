@@ -88,7 +88,7 @@
     <!-- HEADER -->
     <header>
         <div class="logo">
-            <img src="C:\Users\12\Desktop\logo.jpg" alt="Logo">
+            <img src="https://static.vecteezy.com/system/resources/previews/007/166/960/non_2x/phone-icon-logo-design-template-vector.jpg" alt="Logo">
         </div>
         <nav class="menu">
             <h1>МІЙ ЗАСТОСУНОК</h1>
@@ -147,7 +147,7 @@
     <footer>
         <div class="footer-content">
             <div class="footer-logo">
-                <img src="C:\Users\12\Desktop\logo.jpg" alt="Website Logo">
+                <img src="https://static.vecteezy.com/system/resources/previews/007/166/960/non_2x/phone-icon-logo-design-template-vector.jpg" alt="Website Logo">
             </div>
             <div class="footer-links">
                 <ul>
