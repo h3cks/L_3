@@ -2,8 +2,14 @@
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мобільний застосунок</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Мій Мобільний Застосунок</title>
+    <meta name="description" content="Створіть обліковий запис або увійдіть у свій обліковий запис для використання нашого мобільного застосунку. Простий, веселий та креативний спосіб керувати вашими завданнями.">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -14,28 +20,44 @@
         header {
             background-color: #4CAF50;
             color: white;
-            padding: 10px 0;
-            text-align: center;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+        }
+        .logo img {
+            height: 50px;
+            margin-right: 20px;
         }
         nav {
+            flex-grow: 1;
+        }
+        nav h1 {
+            margin: 0;
+        }
+        nav .menu {
             display: flex;
-            justify-content: center;
-            background-color: #333;
+            justify-content: flex-end;
         }
-        nav a {
+        nav .menu ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav .menu ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+        nav .menu a {
             color: white;
-            padding: 14px 20px;
             text-decoration: none;
-            text-align: center;
         }
-        nav a:hover {
-            background-color: #ddd;
-            color: black;
+        nav .menu a:hover {
+            text-decoration: underline;
         }
-        section {
+        main {
             padding: 20px;
-            margin: 20px auto;
             max-width: 800px;
+            margin: 20px auto;
             background-color: white;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
@@ -43,72 +65,103 @@
             background-color: #333;
             color: white;
             text-align: center;
-            padding: 10px 0;
-            position: fixed;
+            padding: 10px;
+            position: relative;
             bottom: 0;
             width: 100%;
         }
-        h2 {
-            color: #4CAF50;
+        .footer-content {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .footer-logo img {
+            height: 30px;
+        }
+        .copyright {
+            margin-top: 10px;
         }
     </style>
 </head>
 <body>
+    <!-- HEADER -->
+    <header>
+        <div class="logo">
+            <img src="C:\Users\12\Desktop\logo.jpg" alt="Logo">
+        </div>
+        <nav class="menu">
+            <h1>МІЙ ЗАСТОСУНОК</h1>
+            <ul>
+                <li><a href="#about">Про додаток</a></li>
+                <li><a href="#download">Як завантажити</a></li>
+                <li><a href="#pricing">Ціна</a></li>
+                <li><a href="#about-us">Про нас</a></li>
+                <li><a href="#contact">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- /HEADER -->
 
-<header>
-    <h1>Мобільний застосунок</h1>
-</header>
+    <!-- Main section -->
+    <main>
+        <section id="about">
+            <h2>Про додаток</h2>
+            <p><b>Мій Застосунок</b> — це мобільний додаток, що допомагає вам керувати своїми завданнями та підвищувати продуктивність.</p>
+            <p>Спілкуйтеся з друзями, діліться своїми досягненнями та відкривайте нові можливості разом з нами!</p>
+        </section>
 
-<nav>
-    <a href="#about">Про застосунок</a>
-    <a href="#download">Як завантажити</a>
-    <a href="#pricing">Ціни</a>
-    <a href="#about-us">Про нас</a>
-    <a href="#contact">Контакти</a>
-</nav>
+        <section id="download">
+            <h2>Як завантажити</h2>
+            <p>Додаток доступний для платформ iOS та Android. Завантажте його за допомогою посилань нижче:</p>
+            <ul>
+                <li><a href="https://play.google.com/store/apps/details?id=com.example.app">Завантажити з Google Play</a></li>
+                <li><a href="https://apps.apple.com/ru/app/example-app/id123456789">Завантажити з App Store</a></li>
+            </ul>
+        </section>
 
-<section id="about">
-    <h2>Про застосунок</h2>
-    <p>Наш застосунок допомагає вам легко керувати своїми завданнями та збільшувати продуктивність. Він призначений для людей, які цінують свій час і прагнуть досягати більше.</p>
-    <p>Основні функції включають керування завданнями, планування та нагадування.</p>
-</section>
+        <section id="pricing">
+            <h2>Ціна</h2>
+            <p>Ви можете скористатися різними тарифами для використання нашого застосунку:</p>
+            <ol>
+                <li>Безкоштовний доступ до основних функцій</li>
+                <li>Преміум підписка — $9.99 на місяць</li>
+                <li>Професійний план — $19.99 на місяць</li>
+            </ol>
+        </section>
 
-<section id="download">
-    <h2>Як завантажити</h2>
-    <p>Завантажте наш застосунок прямо зараз:</p>
-    <ul>
-        <li><a href="#">Завантажити з App Store</a></li>
-        <li><a href="#">Завантажити з Google Play</a></li>
-    </ul>
-</section>
+        <section id="about-us">
+            <h2>Про нас</h2>
+            <p>Наша команда прагне створити найкращий досвід для користувачів, пропонуючи нові функції та оновлення нашого застосунку.</p>
+        </section>
 
-<section id="pricing">
-    <h2>Ціни</h2>
-    <p>Ми пропонуємо різні тарифні плани:</p>
-    <ul>
-        <li>Безкоштовний: базові функції</li>
-        <li>Преміум: розширені функції за $9.99 на місяць</li>
-        <li>Професійний: всі функції за $19.99 на місяць</li>
-    </ul>
-</section>
+        <section id="contact">
+            <h2>Контакти</h2>
+            <p>Email: <a href="mailto:support@example.com">support@example.com</a></p>
+            <p>Телефон: <a href="tel:+380123456789">+380 123 456 789</a></p>
+        </section>
+    </main>
+    <!-- /Main section -->
 
-<section id="about-us">
-    <h2>Про нас</h2>
-    <p>Наша команда складається з професіоналів, які прагнуть створювати інноваційні рішення для мобільних пристроїв. Ми цінуємо якість і клієнтоорієнтованість.</p>
-</section>
-
-<section id="contact">
-    <h2>Контакти</h2>
-    <p>Зв'яжіться з нами:</p>
-    <ul>
-        <li>Email: support@mobileapp.com</li>
-        <li>Телефон: +380 123 456 789</li>
-    </ul>
-</section>
-
-<footer>
-    <p>&copy; 2024 Мобільний застосунок. Всі права захищені.</p>
-</footer>
-
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="C:\Users\12\Desktop\logo.jpg" alt="Website Logo">
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#about">Про додаток</a></li>
+                    <li><a href="#download">Як завантажити</a></li>
+                    <li><a href="#pricing">Ціна</a></li>
+                    <li><a href="#about-us">Про нас</a></li>
+                    <li><a href="#contact">Контакти</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2024 Мій Мобільний Застосунок. Всі права захищені.
+        </div>
+    </footer>
 </body>
 </html>
